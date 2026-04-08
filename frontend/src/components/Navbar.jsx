@@ -143,9 +143,9 @@ function Navbar() {
                         onClose={handleMenuClose}
                         PaperProps={{ sx: { mt: 1, minWidth: 140, boxShadow: 3 } }}
                     >
-                        <MenuItem onClick={() => { handleMenuClose(); navigate("/profile"); }}>
+                        {/*<MenuItem onClick={() => { handleMenuClose(); navigate("/profile"); }}>
                             Profile
-                        </MenuItem>
+                        </MenuItem> */}
                         <MenuItem onClick={handleLogout}>Logout</MenuItem>
                     </Menu>
                 </Box>
